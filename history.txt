@@ -1,0 +1,1000 @@
+  175  sudo python3 -m pip3 install -r requirements.txt
+  176  cd ..
+  177  cd env/bin/
+  178  ls
+  179  cd ..
+  180  cd odooproject13/
+  181  ls
+  182  cd odoo-13/
+  183  ls
+  184  cd ..
+  185  ls
+  186  source venv/bin/activate
+  187  ls
+  188  cd odoo-13/
+  189  ls
+  190  pip3 install -r requirements.txt 
+  191  sudo pip3 install -r requirements.txt 
+  192  cd ..
+  193  cd odooproject13/
+  194  deactivate 
+  195  ls
+  196  cd odoo-13/
+  197  ls
+  198  cd odoo
+  199  cd ..
+  200  sudo pip3 install -r requirements.txt 
+  201  sudo apt install pgadmin4
+  202  cd Desktop/
+  203  cd ..
+  204  cd Downloads/
+  205  curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+  206  sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+  207  sudo apt install pgadmin4
+  208  sudo service postgresql status
+  209  sudo apt install pgadmin4-desktop
+  210  sudo /usr/pgadmin4/bin/setup-web.sh
+  211  pgmodeler
+  212  sudo apt purge postgresql-12
+  213  sudo apt-get install postgresql
+  214  sudo -u postgres psql
+  215  sudo /usr/pgadmin4/bin/setup-web.sh
+  216  pgmodeler
+  217  sudo /usr/pgadmin4/bin/setup-web.sh
+  218  sudo service postgresql@12-main status
+  219  sudo apt purge postgresql-12
+  220  sudo apt purge pgadmin4*
+  221  sudo apt purge pgadmin4
+  222  sudo apt purge pgadmin4-server 
+  223  sudo apt-get install postgresql
+  224  sudo -u postgres psql
+  225  psql -U postgres -h localhost
+  226  sudo apt-get install pgadmin4
+  227  sudo /usr/pgadmin4/bin/setup-web.sh
+  228  pgmodeler
+  229  sudo chmod a+wrx "/var/log/pgadmin" 
+  230  sudo chmod a+wrx "/var/lib/pgadmin"
+  231  source env/bin/activate
+  232  ls
+  233  pip freeze
+  234  deactivate 
+  235  ls
+  236  cd ..
+  237  ls
+  238  cd Documents/
+  239  ls
+  240  mkdir myodoo
+  241  virtualenv venv .
+  242  pip3 virtualenv venv .
+  243  virtualenv venv
+  244  pgmodeler
+  245  source venv/bin/activate
+  246  pip freeze
+  247  pip indtall django
+  248  pip install django 
+  249  ls
+  250  cd trydjango/
+  251  ls
+  252  python manage.py runserver
+  253  ls
+  254  cd trydjango/
+  255  ls
+  256  pip install -r requirements.txt 
+  257  cd ..
+  258  python manage.py runserver
+  259  python manage.py makemigrations
+  260  python manage.py migrate
+  261  python manage.py createsuperuser
+  262  python manage.py runserver
+  263  python manage.py makemigrations
+  264  python manage.py migrate
+  265  python manage.py runserver
+  266  python manage.py migrate dashboard
+  267  python manage.py makemigrations dashboard
+  268  python manage.py migrate dashboard
+  269  python manage.py runserver
+  270  pgmodeler
+  271  ping 13.71.37.81 -t
+  272  ping 13.71.37.81 
+  273  tracert 13.71.37.81 
+  274  pathping 13.71.37.81
+  275  traceroute 13.71.37.81
+  276  telnet pacs.unimedtmh.com 104
+  277  telnet 13.71.37.81 104
+  278  t
+  279  ping google.com
+  280  ls
+  281  cd Documents/
+  282  ls
+  283  mkdir testdjango
+  284  cd testdjango/
+  285  virtualenv venv .
+  286  virtualenv venv 
+  287  source venv/
+  288  source venv/bin/activate
+  289  ls
+  290  pip freeze
+  291  pip install django
+  292  ls
+  293  python django-admin startproject trydjango
+  294  django-admin startproject trydjango
+  295  cd trydjango/
+  296  ls
+  297  python manage.py  runserver
+  298  python manage.py startapp dashboard
+  299  pip install django-rest
+  300  pip install djangorestframework-datatables
+  301  python manage.py makemigrations
+  302  python manage.py migrations
+  303  python manage.py migate
+  304  python manage.py migrate
+  305  python manage.py runserver
+  306  cd ..
+  307  git clone https://github.com/izimobil/django-rest-framework-datatables.git
+  308  cd django-rest-framework-datatables/
+  309  ls
+  310  pip install -r requirements-dev.txt
+  311  python example/manage.py runserver
+  312  cd example/
+  313  ls
+  314  python manage.py migrate
+  315  python manage.py createsuperuser
+  316  python manage.py runserver
+  317  cd Documents/
+  318  ls
+  319  git clone https://github.com/django-ckeditor/django-ckeditor.git
+  320  cd django-ckeditor/
+  321  ls
+  322  virtualenv venv
+  323  source venv/bin/activate
+  324  ls
+  325  pip install -r ckeditor_demo_requirements.txt 
+  326  ls
+  327  clear
+  328  ls
+  329  cd ckeditor_demo/
+  330  ls
+  331  cd ..
+  332  python manage.py runserver
+  333  python manage.py migrate
+  334  python manage.py runserver
+  335  python manage.py createsuperuser
+  336  python manage.py runserver
+  337  cd ..
+  338  ls
+  339  cd myodoo/
+  340  ls
+  341  cd ..\
+  342  cd ..
+  343  cd odooproject13/
+  344  ls
+  345  cd odoo-13/
+  346  ls
+  347  source venv/bin/activate
+  348  sudo pip install -r requirements.txt 
+  349  pip install -r requirements.txt 
+  350  cls
+  351  sudo apt install nodejs
+  352  sudo apt install npm
+  353  sudo apt update && sudo apt install yarn
+  354  sudo apt install yarn
+  355  deactivate 
+  356  cd ..
+  357  git clone https://github.com/OHIF/Viewers.git
+  358  cd Viewers/
+  359  ls
+  360  yarn config set workspaces-experimental true
+  361  sudo yarn config set workspaces-experimental true
+  362  ls
+  363  cd platform/viewer/
+  364  sudo yarn config set workspaces-experimental true
+  365  yarn config set workspaces-experimental true
+  366  yarn install
+  367  ls
+  368  cd src/
+  369  ls
+  370  yarn config set workspaces-experimental true
+  371  ls
+  372  clear
+  373  ls
+  374  cd .
+  375  cd ../..
+  376  ls
+  377  sudo service docker status
+  378  sudo docker run -d -p 9000:9000 portainer/portainer
+  379  sudo service docker start
+  380  sudo systemctl enable docker.service 
+  381  sudo systemctl enable docker.socket 
+  382  sudo service docker start
+  383  sudo docker run -d -p 9000:9000 portainer/portainer
+  384  sudo docker stop -d -p 9000:9000 portainer/portainer
+  385  sudo docker stop portainer
+  386  sudo docker ps
+  387  docker stop portainer
+  388  suod docker stop portainer
+  389  sudo docker stop portainer
+  390  sudo docker stop a79ea0bbbf4c
+  391  suod docker volume create portainer_data
+  392  docker volume create portainer_data
+  393  sudo docker volume create portainer_data
+  394  docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  395  sudo docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  396  docker run -p 3000:80 ohif/viewer:latest
+  397  suod docker run -p 3000:80 ohif/viewer:latest
+  398  sudo docker run -p 3000:80 ohif/viewer:latest
+  399  ping 172.17.0.2
+  400  ifconfig
+  401  ls
+  402  pip install docker
+  403  sudo pip3 install docker
+  404  python 3
+  405  python3
+  406  virtualenv venv
+  407  source venv/bin/activate
+  408  cd car_hire
+  409  ls
+  410  pip install -r requirements.txt 
+  411  ls
+  412  cd ..
+  413  ls
+  414  python manage.py makemigrations
+  415  python migrate
+  416  python manage.py migrate
+  417  python manage.py migrate car_hire_core
+  418  python manage.py migrate car_hire_core/
+  419  python manage.py createsuperuser
+  420  python manage.py runserver
+  421  python manage.py runserver 8001
+  422  ls
+  423  python manage.py makemigrations car_hire_core
+  424  python manage.py runserver 8001
+  425  cd Documents/
+  426  git clone https://github.com/trypag/ohif-orthanc-postgres-docker.git
+  427  cd ohif-orthanc-postgres-docker/
+  428  docker-compose up -d
+  429  sudo docker-compose up -d
+  430  sudo apt-get purge apache2
+  431  cd ..
+  432  git clone https://github.com/opendicom/html5.git
+  433  cd html5/
+  434  sudo docker-compose up -d --build
+  435  sudo service docker restart
+  436  sudo docker-compose up -d --build
+  437  cd Documents/
+  438  cd html5/
+  439  sudo docker-compose up -d --build
+  440  cd ..
+  441  git clone https://github.com/opendicom/opendicomMWL.git
+  442  cd opendicomMWL/
+  443  virtualenv venv
+  444  source venv/bin/activate
+  445  pip install -r requirements.txt 
+  446  python main.py AET 11112 USER_DB PASSWORD_DB 0.0.0.0 NAME_DB 1
+  447  import sqlite3
+  448  conn = sqlite3.connect('example.db')
+  449  python import sqlite3
+  450  conn = sqlite3.connect('example.db')
+  451  python
+  452  sudo apt-get install sqlitebrowser
+  453  python main.py AET 11112 USER_DB PASSWORD_DB 0.0.0.0 NAME_DB 1
+  454  sudo docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
+  455  sudo docker run -p 8069:8069 --name odoo --link db:db -t odoo
+  456  docker stats
+  457  sudo docker stats
+  458  cd Documents/
+  459  git clone https://github.com/codingforentrepreneurs/Django-Bootcamp-1.git
+  460  cd django-ckeditor/
+  461  cd ..
+  462  ls
+  463  cd Django-Bootcamp-1/
+  464  ls
+  465  virtualenv venv
+  466  source venv/bin/activate
+  467  ls
+  468  pip install django
+  469  ls
+  470  python manage.py migrate
+  471  pip install pillow
+  472  python manage.py migrate
+  473  pip freeze >requirement.txt
+  474  python manage.py runserver
+  475  python manage.py runserver 8001
+  476  python manage.py createsuperuser
+  477  python manage.py runserver 8001
+  478  python manage.py createsuperuser
+  479  python manage.py runserver 8001
+  480  cd Documents/
+  481  ls
+  482  mkdir mytestscrapy
+  483  cd mytestscrapy/
+  484  ls
+  485  virtualenv venv
+  486  source venv/bin/activate
+  487  cls
+  488  clear
+  489  pip install scrapy
+  490  scrapy startproject tutorial
+  491  scrapy shell 'http://quotes.toscrape.com/page/1/'
+  492  scrapy shell 'https://techcrunch.com/2021/01/17/twitter-moments-dailyhunt-india/'
+  493  scrapy shell 'https://www.amazon.in/?ext_vrnc=hi&tag=googhydrabk-21&ascsubtag=_k_CjwKCAiAgJWABhArEiwAmNVTBw_HTnnXrpX28Kmw5Jahoih7FRsoXs2ZvUEgJ_dWa0_fmF66TEWXfhoCsSgQAvD_BwE_k_&ext_vrnc=hi&gclid=CjwKCAiAgJWABhArEiwAmNVTBw_HTnnXrpX28Kmw5Jahoih7FRsoXs2ZvUEgJ_dWa0_fmF66TEWXfhoCsSgQAvD_BwE'
+  494  sudo apt install dcmtk
+  495  cd /var/lib/dcmtk/db
+  496  ls
+  497  cd ..
+  498  ls
+  499  cd ..
+  500  ls
+  501  cd dcmtk/
+  502  ls
+  503  cd ..
+  504  cd etc/dc
+  505  cd etc/dcmtk/
+  506  ls
+  507  wlmscpfs 
+  508  dump2dcm 
+  509  dcmwl
+  510  dcmwlm
+  511  cd Documents/
+  512  ls
+  513  cd opendicomMWL/
+  514  source venv/bin/activate
+  515  clear
+  516  cd ..
+  517  python opendicomMWL/main.py TELERIS 11112  127.0.0.1 example
+  518  python opendicomMWL/main.py TELERIS 11112  127.0.0.1 example.DB
+  519  python
+  520  cd opendicomMWL/
+  521  ls
+  522  python test.py 
+  523  pip install pydicom
+  524  nano sample.txt
+  525  ls
+  526  dump2dcm sample.txt test.wl
+  527  ls
+  528  dump2dcm
+  529  dump2dcm test.wl
+  530  dump2dcm +Ug sample.txt test.wl
+  531  dcmdump test.wl test1.txt
+  532  dcmdump 
+  533  dump2dcm 
+  534  ping google.com
+  535  findscu -v –call OFFIS localhost 1234
+  536  findscu -v –call  localhost 1234
+  537  findscu -v –call opendicomMWL localhost 1234
+  538  cd Documents/opendicomMWL/
+  539  ls
+  540  python test.py 
+  541  history
+  542  wlmscpfs 
+  543  wlmscpfs 106
+  544  sudo wlmscpfs 106
+  545  wlmscpfs -v -dfp /home/hussain/Documents/opendicomMWL 1234
+  546  cd Videos/
+  547  git clone https://github.com/aushafy/Python-Write-and-Read-File.git
+  548  ls
+  549  cd Python-Write-and-Read-File/
+  550  ls
+  551  python write-append-to-file.py 
+  552  python read-line-by-line.py 
+  553  python read-lines-in-a-list.py 
+  554  python dataset.py 
+  555  ls
+  556  pip install docxtpl
+  557  pip3 install docxtpl
+  558  python edit.py 
+  559  python3 edit.py 
+  560  pip2 install jinja2
+  561  pip3 install jinja2
+  562  ls
+  563  python3 edit.py 
+  564  cd Videos/
+  565  cd Python-Write-and-Read-File/
+  566  python3 edit.py 
+  567  python3 dataset.py 
+  568  cd Documents/opendicomMWL/
+  569  ls
+  570  python3 create_dump.py 
+  571  python3 test.py 
+  572  dump2dcm 
+  573  python3 test.py 
+  574  dcmwlm
+  575  wlmscpfs 1000 -dfp .
+  576  wlmscpfs 108 -dfp .
+  577  sudo wlmscpfs 108 -dfp .
+  578  sudo apt-get install orthanc
+  579  source venv/bin/activate
+  580  cd DMWL/
+  581  ls
+  582  CD DMWL/
+  583  cd DMWL/
+  584  ls
+  585  pip install -r requirements.txt 
+  586  ls
+  587  cd ..
+  588  ls
+  589  python manage.py createsuperuser
+  590  python manage.py migrate
+  591  python manage.py createsuperuser
+  592  python manage.py runserver
+  593  python manage.py runserver 8002
+  594  python manage.py makemigrations
+  595  python manage.py makemigrations DMWL
+  596  python manage.py makemigrations CORE_DMWL
+  597  python manage.py migrate CORE_DMWL
+  598  python manage.py runserver 8002
+  599  cd ..
+  600  python create_dump.py 
+  601  findscu -W 127.0.0.1 4242 -k 0008,0050="*"
+  602  findscu -W 127.0.0.1 108 -k 0008,0050="*"
+  603  sudo apt-get install orthanc
+  604  orthanc
+  605  sudo apt autoremove
+  606  nslookup telerad.biz
+  607  nslookup pacs.unimedtmh.com
+  608  ping medilocker.universalmednet.com
+  609  telnet 104.211.222.178 119
+  610  telnet 104.211.222.178 118
+  611  telnet 104.211.222.178 119
+  612  sudo add-apt-repository ppa:webupd8team/java
+  613  cd Desktop/
+  614  sh update-sun-jre.bin
+  615  sudo chmod +x mirthconnect-3.5.1.b194-unix.sh 
+  616  sudo ./mirthconnect-3.5.1.b194-unix.sh 
+  617  cd Desktop/
+  618  git clone https://github.com/chrishantha/install-java.git
+  619  ls
+  620  cd install-java/
+  621  ls
+  622  sudo ./uninstall-java.sh -p /usr/lib/jvm/java-1.11.0-openjdk-amd64/
+  623  sudo ./uninstall-java.sh -p /usr/lib/jvm/java-11-openjdk-amd64/
+  624  java
+  625  uname -a
+  626  sudo -E ./install-java.sh -f ./jre-8u281-linux-x64.tar.gz -p /usr/lib/jvm
+  627  sudo nano /home/hussain/.bashrc
+  628  java -v
+  629  java -verersion
+  630  java -version
+  631  ls
+  632  cd Downloads/
+  633  ls
+  634  java -version
+  635  javaws ~/Downloads/2
+  636  cd /
+  637  cd usr/lib/jvm/jre1.8.0_281/
+  638  ls
+  639  cd bin/
+  640  ls
+  641  javaws ~/Downloads/2.25.47444075625988456653418773340848687204\ \(1\).jnlp 
+  642  cd ~
+  643  cd Desktop/install-java/
+  644  ls
+  645  sudo -E ./install-java.sh -f ./jre-8u281-linux-x64.tar.gz -p /usr/lib/jvm
+  646  javaws ~/Downloads/2.25.47444075625988456653418773340848687204\ \(1\).jnlp 
+  647  javaws
+  648  javaws ~/Downloads/2.25.47444075625988456653418773340848687204\ \(1\).jnlp 
+  649  ./javaws
+  650  cd ..
+  651  cd 
+  652  cd Downloads/
+  653  ls
+  654  anydesk
+  655  ping google.com
+  656  ls
+  657  cd opendicomMWL/
+  658  ls
+  659  source venv/bin/activate
+  660  cd DMWL/
+  661  ls
+  662  python manage.py runserver 8001
+  663  cd ..
+  664  ls
+  665  python create_dump.py 
+  666  ls
+  667  python create_dump.py 
+  668  cd ..
+  669  npm install -g @angular/cli
+  670  sudo npm install -g @angular/cli
+  671  cd Music/
+  672  ls
+  673  ng new my-app
+  674  python
+  675  ping 161.202.180.187
+  676  cd Desktop/
+  677  ls
+  678  python dlAttachments.py 
+  679  python3
+  680  python3 dlAttachments.py 
+  681  python dlAttachments.py 
+  682  sudo apt-get install jupyter-notebook 
+  683  jupyter-notebook 
+  684  ls
+  685  rm Untitled\ Document 
+  686  ls
+  687  ls -al
+  688  clear
+  689  ls
+  690  cd Desktop/
+  691  ls
+  692  cd ..
+  693  ls
+  694  cd Downloads/
+  695  ls
+  696  rm google-chrome-stable_current_amd64.deb 
+  697  rm google-chrome-stable_current_amd64\(1\).deb 
+  698  ls
+  699  cd Documents/
+  700  ls
+  701  mkdir djangotest
+  702  cd djangotest/
+  703  ls
+  704  python virtualenv env
+  705  pytho3 virtualenv env
+  706  python3 -m virtualenv env
+  707  ls
+  708  source env/bin/activate
+  709  ls
+  710  clear
+  711  git clone https://github.com/geekyshow1/shoppinglyx.git
+  712  ls
+  713  cd shoppinglyx/
+  714  ls
+  715  source /home/hussain/Documents/djangotest/env/bin/activate
+  716  ls
+  717  python manage.py runserver
+  718  pip install django
+  719  python manage.py runserver
+  720  python manage.py runserver 8001
+  721  chrome-gnome-shell --auto-open-devtools-for-tabs
+  722  google-chrome --auto-open-devtools-for-tabs
+  723  sudo apt-get update
+  724  sudo apt-get install terminatorx
+  725  sudo apt-get install terminator
+  726  sudo systemctl disable docker.service 
+  727  sudo service docker stop
+  728  sudo systemctl disable docker.socket 
+  729  sudo service docker stop
+  730  sudo service docker status
+  731  sudo service docker restart
+  732  sudo service docker stop
+  733  ls
+  734  htop
+  735  sudo apt-get install htop
+  736  htop
+  737  ls
+  738  cd no
+  739  ls
+  740  cd Desktop/
+  741  sadfasdfasdf fdrsxwQAES RFTGYHUJKILO;]'\
+  742  clear
+  743  ls
+  744  clear
+  745  sudo apt-get install QGroundControl
+  746  dsyufyjdshfsdyuhfkhsiffhjfk
+  747  dfkfjior
+  748  ehhfj
+  749  cjl
+  750  cd..
+  751  cd.
+  752  lis
+  753  ls
+  754  icon.zip
+  755  backup
+  756  open backup
+  757  exit
+  758  source /home/hussain/Documents/BASE_PROJECT/env/bin/activate
+  759  pip install -r requirment.txt 
+  760  ls
+  761  clear
+  762  cd base_django/
+  763  python manage.py makemigrations
+  764  pyhton manage.py migrate
+  765  python manage.py migrate
+  766  python manage.py createsuperuser
+  767  ls
+  768  clear
+  769  python manage.py runserver
+  770  ls
+  771  python3 virtualenv env
+  772  python3 -m virtualenv env
+  773  ls
+  774  sudo pip install pyqt5 pyqt5-tools
+  775  sudo apt install qttools5-dev-tools
+  776  ls
+  777  sudo apt-get install pyuic5
+  778  pyuic
+  779  pyuic5
+  780  pip install pyuic5-tool
+  781  pip3 install pyuic5-tool
+  782  cd Pictures/
+  783  ls
+  784  pyuic5 -x ip\ change.ui -o ip.py
+  785  ls
+  786  pyuic5 ./ip\ change.ui -o ip.py
+  787  pyuic5 ./ip.ui -o ip.py
+  788  python3 pyuic5 ./ip.ui -o ip.py
+  789  sudo apt-get install qtcreator pyqt5-dev-tools
+  790  python3 pyuic5 ./ip.ui -o ip.py
+  791  pyuic5 ./ip.ui -o ip.py
+  792  python3 ip.py 
+  793  pyqt5
+  794  sudo apt-get install pyqt5
+  795  pip install PyQt5
+  796  pip3 install PyQt5
+  797  python3 ip.py 
+  798  python3 ./ip.py 
+  799  python3
+  800  python3 ./ip.py 
+  801  pyuic5 ./ip.ui -o ipnew.py
+  802  nano mani.py
+  803  python mani.py 
+  804  python3 ip.py 
+  805  cd Pictures/
+  806  python3 ip.py 
+  807  cd Pictures/
+  808  python3 ip.py 
+  809  pyuic5 main.ui -o main.py
+  810  python3 main.py 
+  811  python3 login.py 
+  812  python3 main.py 
+  813  cd Pictures/
+  814  ls
+  815  pyuic5 -x ip.ui -o iptest.py
+  816  ls
+  817  python3 iptest.py 
+  818  pip3 install netifaces
+  819  python3 iptest.py 
+  820  LS
+  821  ls
+  822  sudo python3 iptest.py 
+  823  ls
+  824  git clone https://github.com/JoeKuan/Network-Interfaces-Script.git
+  825  sudo python3 iptest.py 
+  826  python3 iptest.py 
+  827  ipconfig
+  828  ifconfig
+  829  sudo python3 iptest.py 
+  830  python3 iptest.py 
+  831  sudo python3 iptest.py 
+  832  ifconfig
+  833  sudo ifconfig wls1 up
+  834  ifconfig
+  835  sudo ifconfig wls1 up
+  836  ifconfig
+  837  ls
+  838  cd /etc/network
+  839  sudo nano interfaces
+  840  sudo ifconfig wls1 up
+  841  nano interfaces
+  842  ls
+  843  nano interfaces
+  844  sudo ifconfig wls1 up
+  845  nano interfaces
+  846  sudo ifconfig wls1 up
+  847  ls
+  848  cd Desktop/
+  849  ls
+  850  cd IP/
+  851  ls
+  852  python3 iptest.py 
+  853  [A
+  854  ls
+  855  cd Documents/
+  856  ls
+  857  cd ..
+  858  cd Desktop/
+  859  cd IP/
+  860  ls
+  861  python3 iptest.py 
+  862  ls
+  863  sudo nano interfaces
+  864  python3 iptest.py 
+  865  sudo nano interfaces
+  866  sudo ifconfig wls1 up
+  867  sudo nano interfaces
+  868  sudo ifconfig wls1 up
+  869  sudo nano interfaces
+  870  sudo ifconfig wls1 up
+  871  ping google.com
+  872  sudo nano interfaces
+  873  ifconfig
+  874  sudo ifconfig wls1 restart
+  875  sudo ifconfig wls1 up
+  876  sudo nano interfaces
+  877  sudo ifconfig wls1 up
+  878  sudo nano interfaces
+  879  sudo ifconfig wls1 up
+  880  sudo nano interfaces
+  881  sudo ifconfig wls1 up
+  882  sudo nano interfaces
+  883  sudo ifconfig wls1 up
+  884  sudo nano interfaces
+  885  cd Desktop/
+  886  cd IP/
+  887  ls
+  888  pyhton3 iptest.py 
+  889  python3 iptest.py 
+  890  sudo python3 iptest.py 
+  891  sudo ifconfig wls1 up
+  892  sudo python3 iptest.py 
+  893  ls
+  894  awk -f changeInterface.awk /etc/network/interfaces device=wls1 action=modify mode=static address=192.168.202.1 netmask=255.255.255.0 gateway=192.168.202.254
+  895  sudo awk -f changeInterface.awk /etc/network/interfaces device=wls1 action=modify mode=static address=192.168.202.1 netmask=255.255.255.0 gateway=192.168.202.254
+  896  sudo awk -f ./changeInterface.awk /etc/network/interfaces device=wls1 action=modify mode=static address=192.168.202.1 netmask=255.255.255.0 gateway=192.168.202.254
+  897  sudo awk -f changeInterface.awk /etc/network/interfaces device=wls1 action=add mode=static address=192.168.202.1 netmask=255.255.255.0 gateway=192.168.202.254
+  898  sudo python3 iptest.py 
+  899  python3 iptest.py 
+  900  ls
+  901  sudo python3 iptest.py 
+  902  ifconfig
+  903  cd Desktop/
+  904  ls
+  905  cd IP/
+  906  ls
+  907  sudo python3 iptest.py 
+  908  ipconfig
+  909  ifconfig
+  910  sudo nano /etc/network
+  911  sudo /etc/network
+  912  sudo cd /etc/network
+  913  sudo cd /etc/network/
+  914  cd /etc/network
+  915  ls
+  916  sudo nano interfaces
+  917  sudo service network-manager restart
+  918  history
+  919  cd ~/Desktop/
+  920  ls
+  921  cd IP/
+  922  ls
+  923  sudo python3 iptest.py 
+  924  sudo python3 iptest.py 
+  925  ifconfig
+  926  sudo python3 iptest.py 
+  927  sudo ifup wls1
+  928  sudo down wls1
+  929  sudo ifdown wls1
+  930  sudo python3 iptest.py 
+  931  cd ~/Pictures/
+  932  ls
+  933  pyuic5 -O ip.ui -x ip_new.py
+  934  pyuic5 -o ip.ui -x ip_new.py
+  935  pyuic5 
+  936  pyuic5 -x ip.ui -o ip_new.py
+  937  cd ..
+  938  cd ~/Desktop/IP/
+  939  ls
+  940  python3 newip.py 
+  941  [A
+  942  cd ~/Desktop/IP/sdfasdfasdfasdfsadfasdf
+  943  python3 newip.py 
+  944  ifconfig
+  945  hon3 newip.py bn
+  946  sudo nano /etc/network/interfaces
+  947  sudo service network-manager restart
+  948  sudo python3 iptest.py 
+  949  sudo service network-manager restart
+  950  history
+  951  sudo nano /etc/network/interfaces
+  952  sudo service network-manager restart
+  953  sudo nano /etc/network/interfaces
+  954  sudo service network-manager restart
+  955  sudo nano /etc/network/interfaces
+  956  sudo service network-manager restart
+  957  sudo nano /etc/network/interfaces
+  958  sudo service network-manager restart
+  959  sudo nano /etc/network/interfaces
+  960  sudo service network-manager restart
+  961  cd ..
+  962  cd ~/Pictures/
+  963  ls
+  964  python3 iptest.py 
+  965  python3 ipnew.py 
+  966  python3 ./ipnew.py 
+  967  python3 ./ip_new.py 
+  968  cd ~/Desktop/
+  969  cd IP/
+  970  ls
+  971  python3 newip.py 
+  972  ifconfig
+  973  sudo nano /etc/network/interfaces
+  974  cd Desktop/IP/
+  975  ls
+  976  sudo python3 newip.py 
+  977  ifconfig
+  978  sudo python3 newip.py 
+  979  sudo nano /etc/network/interfaces
+  980  sudo service network-manager restart
+  981  sudo apt-get install debreate
+  982  deb http://ppa.launchpad.net/antumdeluge/debreate/ubuntu bionic main 
+  983  sudo add-apt-repository ppa:antumdeluge/debreate
+  984  cd ~/Pictures/
+  985  ls
+  986  sudo chmod +x debreate_0.7.13_all.deb 
+  987  sudo apt-get install pyinstaller
+  988  python3 pyinstaller myscripts.py --onefile 
+  989  pyinstaller
+  990  python3 pyinstaller
+  991  sudo pip
+  992  sudo pip3 install pyinstaller
+  993  python3 pyinstaller
+  994  pyinstaller
+  995  pyinstaller myscripts.py --onefile 
+  996  ls
+  997  cd dist/
+  998  ls
+  999  ./myscripts 
+ 1000  cd ..
+ 1001  ls
+ 1002  python3 pip3 install fbs
+ 1003  pip3 install fbs
+ 1004  pyinstaller
+ 1005  cd Pictures/
+ 1006  ls
+ 1007  cd ~/Desktop/
+ 1008  ls
+ 1009  cd ip_tools/
+ 1010  ls
+ 1011  pyinstall newip.py 
+ 1012  pyinstaller newip.py 
+ 1013  cd Desktop/
+ 1014  cd ip_tools/
+ 1015  ls
+ 1016  pyinstaller newip.py 
+ 1017  ls
+ 1018  cd dist/
+ 1019  ls
+ 1020  cd newip/
+ 1021  ls
+ 1022  chmod +x newip 
+ 1023  ls
+ 1024  newip
+ 1025  python3 newip
+ 1026  '/home/hussain/Desktop/ip_tools/dist/newip/newip' 
+ 1027  sudo nano /etc/network/interfaces
+ 1028  cd Desktop/IP/
+ 1029  ls
+ 1030  sudo -H ./newip.py
+ 1031  sudo -H python3 newip.py 
+ 1032  cd ..
+ 1033  cd ip_tools/
+ 1034  ls
+ 1035  pyinstaller newip.py 
+ 1036  '/home/hussain/Desktop/ip_tools/dist/newip/newip' 
+ 1037  pyinstaller newip.py --uac-admin
+ 1038  '/home/hussain/Desktop/ip_tools/dist/newip/newip' 
+ 1039  pyinstaller --add-data "style.qss,changeInterface.awk"newip.py --uac-admin
+ 1040  pyinstaller --add-data 'style.qss;changeInterface.awk' newip.py --uac-admin
+ 1041  pyinstaller --add-data 'style.qss','changeInterface.awk' newip.py --uac-admin
+ 1042  pyinstaller --add-data "style.qss;." newip.py --uac-admin
+ 1043  pyinstaller --add-data "./style.qss;." newip.py --uac-admin
+ 1044  pyinstaller --add-data "./style.qss:." newip.py --uac-admin
+ 1045  '/home/hussain/Desktop/ip_tools/dist/newip/newip' 
+ 1046  pyinstaller --add-data "./style.qss:." newip.py --onefile --uac-admin
+ 1047  '/home/hussain/Desktop/ip_tools/dist/newip' 
+ 1048  ls
+ 1049  cd ..
+ 1050  cd IP/
+ 1051  ls
+ 1052  python3 newip.py 
+ 1053  cd ..
+ 1054  cd ip_tools/
+ 1055  ls
+ 1056  cd ..
+ 1057  ls
+ 1058  cd ip_tools/
+ 1059  cd ..
+ 1060  nano ip_tools/
+ 1061  nano Test
+ 1062  nano Test.desktop 
+ 1063  cd /usr/bin/
+ 1064  cd..
+ 1065  cd ..
+ 1066  ls
+ 1067  cd ..
+ 1068  ls
+ 1069  cd ~/Desktop/
+ 1070  ls
+ 1071  history
+ 1072  clear
+ 1073  ls
+ 1074  nano Test.desktop 
+ 1075  ls
+ 1076  ls -al
+ 1077  nano Test.desktop 
+ 1078  ls -al
+ 1079  nano org.gnome.tweaks.desktop
+ 1080  nano org.gnome.tweaks.desktop
+ 1081  org.gnome.tweaks.desktop
+ 1082  s
+ 1083  ls
+ 1084  pip install pip3 install elevate
+ 1085  pip3 install elevate
+ 1086  cd IP/
+ 1087  ls
+ 1088  python3 newip.py 
+ 1089  pip3 install ELF2deb
+ 1090  ls
+ 1091  cd ..
+ 1092  ls
+ 1093  cd ip_tools/
+ 1094  ls
+ 1095  cd dist/
+ 1096  ls
+ 1097  --license apache-2.0 --license_year 2018 --license_holder "The Skaffold Authors" \
+ 1098  elf2deb
+ 1099  cd Desktop/ip_tools/
+ 1100  ls
+ 1101  cd dist/
+ 1102  ls
+ 1103  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" > --package_name newip --package_version 0.28.0 --homepage "https://skaffold.dev/" ./newip
+ 1104  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" > --package_name newip --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1105  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" > --package_name test --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1106  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name test --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1107  sudo elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name test --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1108  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name test --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1109  sudo apt-get install dch
+ 1110  dch
+ 1111  cd test-0.28.0/
+ 1112  ls
+ 1113  debuild -us -uc
+ 1114  sudo apt-get install devscripts build-essential lintian
+ 1115  debuild -us -uc
+ 1116  cd ..
+ 1117  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name test --package_version 0.28.0 --homepage "https://skaffold.dev/" newip 
+ 1118  cd test-0.28.0
+ 1119  debuild -us -uc
+ 1120  debuild -us -ucd
+ 1121  debuild -us -uc
+ 1122  sudo apt-get install debhelper dh-virtualenv
+ 1123  sudo apt-get install debhelper
+ 1124  debuild -us -uc
+ 1125  newip
+ 1126  cd ..
+ 1127  ls
+ 1128  sudo chmod +x test_0.28.0_amd64.deb
+ 1129  sudo apt-install test_0.28.0_amd64.deb 
+ 1130  sudo dpkg -i test_0.28.0_amd64.deb 
+ 1131  test
+ 1132  sudo test
+ 1133  cd ..
+ 1134  cd pyqt5/
+ 1135  ls
+ 1136  python3 cellular_automaton.py 
+ 1137  ls
+ 1138  pyinstaller cellular_automaton.py --onefile
+ 1139  '/home/hussain/Desktop/pyqt5/dist/cellular_automaton' 
+ 1140  ld
+ 1141  ls
+ 1142  cd dist/
+ 1143  ld
+ 1144  ls
+ 1145  cellular_automaton 
+ 1146  ./cellular_automaton 
+ 1147  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name cellular_automaton --package_version 0.28.0 --homepage "https://skaffold.dev/" cellular_automaton 
+ 1148  cd cellular_automaton-0.28.0
+ 1149  debuild -us -uc
+ 1150  debuild -us -ucd
+ 1151  ls
+ 1152  cd debian/
+ 1153  ls
+ 1154  debuild -us -ucd
+ 1155  debuild -us -uc
+ 1156  cd ..
+ 1157  debuild -us -uc
+ 1158  elf2deb --license apache-2.0 --license_year 2021 --license_holder "The Skaffold Authors" --package_name cellular --package_version 0.28.0 --homepage "https://skaffold.dev/" cellular_automaton 
+ 1159  cd cellular-0.28.0/
+ 1160  ls
+ 1161  debuild -us -uc
+ 1162  ls
+ 1163  cd ..
+ 1164  ls
+ 1165  sudo chmod +x cellular_0.28.0_amd64.deb 
+ 1166  ls
+ 1167  dpkg -i cellular_0.28.0_amd64.deb 
+ 1168  sudo dpkg -i cellular_0.28.0_amd64.deb 
+ 1169  cd ..
+ 1170  cellular_automaton 
+ 1171  ls -al
+ 1172  nano org.gnome.tweaks.desktop
+ 1173  nano cellu.desktop 
+ 1174  history >history.txt
